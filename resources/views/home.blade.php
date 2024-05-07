@@ -20,8 +20,8 @@
                     <img class="card-img-top" src="{{$comic['thumb']}}" alt="">
 
 
-                    <div class="card-body my-3">
-                        <h4>{{$comic['title']}}</h4>
+                    <div class="card-body py-3 bg-dark text-light">
+                        <h4 class="mx-auto">{{$comic['title']}}</h4>
                     </div>
                 </div>
             </div>

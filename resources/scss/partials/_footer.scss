@@ -1,4 +1,26 @@
+@use './variables' as *;
+
 footer {
-    height: 10rem;
+    border-top: 3px solid $darkblue;
+    padding-top: 1rem;
     background-image: url('../img/footer-bg.jpg');
+
+    .col {
+        display: flex;
+        justify-content: center;
+    }
+
+    ul {
+
+
+        h4 {
+            color: $lighter;
+
+        }
+
+        li {
+            color: $light;
+            font-size: small;
+        }
+    }
 }

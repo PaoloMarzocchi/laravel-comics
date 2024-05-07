@@ -1,7 +1,8 @@
 @use './variables' as *;
 
 #comic-list {
-    padding: 2rem 0;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     background-color: $dark;
 
     h2 {
@@ -16,24 +17,10 @@
         height: 100%;
 
         .card-body {
+            text-align: center;
             display: flex;
-            justify-content: center;
             align-items: center;
         }
     }
 
-    /* 
-
-        .card-top {
-            height: 70%;
-
-
-            img {
-                max-width: 100%;
-                object-fit: cover;
-            }
-
-        }
-
-    } */
 }
