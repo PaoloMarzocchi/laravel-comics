@@ -1,0 +1,39 @@
+@use './variables' as *;
+
+#comic-list {
+    padding: 2rem 0;
+    background-color: $dark;
+
+    h2 {
+        border-bottom: 5px solid $primary;
+
+        color: $lighter;
+        padding: 1rem 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        height: 100%;
+
+        .card-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    /* 
+
+        .card-top {
+            height: 70%;
+
+
+            img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+
+        }
+
+    } */
+}
