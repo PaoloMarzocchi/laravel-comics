@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+header {
+    .top-header {
+        background-color: $primary;
+
+        span {
+            font-size: 10px;
+            color: $lighter;
+        }
+    }
+
+    nav {
+
+        background-color: $lighter;
+
+        input {
+            width: 2rem;
+        }
+    }
+}
