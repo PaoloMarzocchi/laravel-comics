@@ -18,10 +18,10 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0 mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-current="page">Home</a>
+                        <a class="nav-link" href="{{route('home')}}" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Characters</a>
+                        <a class="nav-link" href="{{route('comics')}}">Comics</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Movies</a>
