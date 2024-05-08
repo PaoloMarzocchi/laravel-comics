@@ -1,18 +1,18 @@
 <section id="comic-list">
     <div class="container">
-        <h2 class="text-center">COMIC LIST</h2>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="current-series text-center">CURRENT SERIES</div>
+        <div class="row row-cols-1 row-cols-md-6 g-4 mt-3">
             @foreach ($comics as $index => $comic)
             <div class="col">
                 <a href="{{route('comic',['id'=>$index])}}" class="text-decoration-none">
-                    <div class="card">
+                    <div class="card border-0">
 
+                        <div class="card-top">
+                            <img src="{{ $comic['thumb'] }}" alt="">
+                        </div>
 
-                        <img class="card-img-top" src="{{ $comic['thumb'] }}" alt="">
-
-
-                        <div class="card-body py-3 bg-dark text-light">
-                            <h4 class="mx-auto">{{ $comic['title'] }}</h4>
+                        <div class="card-body py-3">
+                            <strong class="mx-auto">{{ $comic['series'] }}</strong>
                         </div>
                     </div>
                 </a>
