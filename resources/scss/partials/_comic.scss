@@ -1,0 +1,7 @@
+@use './variables' as *;
+
+#comic {
+    border-top: 3px solid $darkblue;
+    background-color: $dark;
+    color: $lighter;
+}
