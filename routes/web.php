@@ -19,14 +19,10 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('home');
 
-/* Route::get('/comics', function () {
-    $comics = config('db');
-    //dd($comics);
-    return view('comics-details', compact('comics'));
-})->name('comics');
- */
+
 Route::get('/comic/{id}', function ($id) {
+    abort_unless($id > 0 && $id < count(config('db')), 404);
     $comic = config('db')[$id];
-    //dd($comic);
+
     return view('comic', compact('comic'));
 })->name('comic');
