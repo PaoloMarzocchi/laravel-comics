@@ -4,7 +4,7 @@
 
 @section('content')
 <section id="comic">
-    <h2 class="text-center text-light py-4">Comic informations</h2>
+    <h2 class="text-light py-4">Comic informations</h2>
 
     <div class="container">
         <div class="row row-cols-2 py-4">

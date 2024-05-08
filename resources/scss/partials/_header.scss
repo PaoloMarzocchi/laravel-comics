@@ -1,6 +1,8 @@
 @use './variables' as *;
 
 header {
+    border-bottom: 3px solid $darkblue;
+
     .top-header {
         background-color: $primary;
 

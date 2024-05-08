@@ -1,7 +1,14 @@
 @use './variables' as *;
 
 #comic {
-    border-top: 3px solid $darkblue;
+    /* border-top: 3px solid $darkblue; */
     background-color: $dark;
     color: $lighter;
+
+    h2 {
+        width: fit-content;
+        padding: 0 2rem;
+        margin: 0 auto;
+        border-bottom: 3px solid $darkblue;
+    }
 }

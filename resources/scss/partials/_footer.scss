@@ -2,7 +2,7 @@
 
 footer {
     border-top: 3px solid $darkblue;
-    padding-top: 1rem;
+
     background-image: url('../img/footer-bg.jpg');
 
     .col {
@@ -13,7 +13,7 @@ footer {
     ul {
 
 
-        h4 {
+        h6 {
             color: $lighter;
 
         }
@@ -21,6 +21,13 @@ footer {
         li {
             color: $light;
             font-size: small;
+            font-weight: 500;
         }
+    }
+
+    .logo-footer {
+        background-image: url('../img/dc-logo-bg.png');
+        background-size: cover;
+        background-position: center;
     }
 }
